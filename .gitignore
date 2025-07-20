@@ -43,3 +43,7 @@ Thumbs.db
 .env.test.local
 .env.production.local
 coverage/
+
+# Ignore temporary local SQLite database files
+*.sqlite3
+*.db
